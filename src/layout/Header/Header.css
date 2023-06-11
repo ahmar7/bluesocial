@@ -1,0 +1,40 @@
+.main-header {
+  padding: 15px 0;
+  width: 100%;
+  position: absolute;
+  top: 0;
+}
+.flex-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.left-content {
+  display: flex;
+  gap: 50px;
+  align-items: center;
+}
+
+.nav-link li a {
+  font-family: "Comfortaa";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 15px;
+  text-decoration: none;
+  color: #000000;
+  transition: all 0.3s ease;
+}
+.nav-link li a:hover,
+.active {
+  color: #0083fd !important;
+  transition: all 0.2s ease;
+}
+
+.nav-link {
+  display: flex;
+  gap: 30px;
+}
+.right-content {
+  display: flex;
+  gap: 10px;
+}

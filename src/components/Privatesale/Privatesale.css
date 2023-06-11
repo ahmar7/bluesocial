@@ -1,0 +1,72 @@
+.num-main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: fit-content;
+  margin: 0 auto;
+}
+.number-flex {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  margin-top: 35px;
+  gap: 15px;
+  width: max-content;
+  padding-bottom: 30px;
+  margin-inline: auto;
+  border-radius: 30px;
+}
+.border-line {
+  width: 100%;
+  border-radius: 30px;
+  box-sizing: border-box;
+  border: 15px solid #0083fd;
+}
+.single-number {
+  font-family: "Comfortaa";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 44px;
+  background-image: url("../../assets/img/numberbg.svg");
+  line-height: 49px;
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+
+  width: 49px;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-transform: uppercase;
+
+  color: #ffffff;
+}
+.num-sec {
+  display: flex;
+  gap: 15px;
+}
+
+.coma {
+  font-family: "Comfortaa";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 50px;
+  text-align: center;
+  text-transform: uppercase;
+
+  color: #000000;
+}
+
+.sale-remaining {
+  font-family: "Comfortaa";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  margin-top: 30px;
+
+  text-align: center;
+
+  color: #000000;
+}

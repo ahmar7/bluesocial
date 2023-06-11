@@ -1,23 +1,35 @@
-import logo from './logo.svg';
-import './App.css';
+import "./assets/css/styles.css";
+import Banner from "./components/Banner/Banner";
+import Buytoke from "./components/Buytoken/Buytoken";
+import Countdown from "./components/Countdown/Countdown";
+import HowToPlay from "./components/HowToPlay/HowToPlay";
+import Platfroms from "./components/Platforms/Platfroms";
+import Privatesale from "./components/Privatesale/Privatesale";
+import ScocialToken from "./components/SocialToken/ScocialToken";
+import Welcome from "./components/Welcome/Welcome";
+import Header from "./layout/Header/Header";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Header />
+      <Banner />
+      <Platfroms />
+      <Countdown />
+      <Privatesale />
+      <Buytoke />
+      <Welcome />
+      <HowToPlay />
+      <ScocialToken />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
     </div>
   );
 }

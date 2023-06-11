@@ -1,0 +1,82 @@
+.main-banner {
+  padding-top: 150px;
+  display: flex;
+  justify-content: space-between;
+}
+.banner-text {
+  margin-top: 70px;
+  width: 50%;
+}
+/* .banner-img {
+  width: 50%;
+} */
+.banner-text h1 {
+  font-family: "Comfortaa";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 38px;
+
+  color: #0083fd;
+}
+
+.banner-text p {
+  font-family: "Comfortaa";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  margin: 30px 0;
+
+  color: #000000;
+}
+.banner-text h3 {
+  font-family: "Comfortaa";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  margin-top: 50px;
+
+  color: #000000;
+}
+.blue-btn {
+  font-family: "Comfortaa";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  border: 1px solid #0083fd;
+  outline: none;
+  cursor: pointer;
+  color: #ffffff;
+
+  background: #0083fd;
+  padding: 12px 40px;
+  transition: all 0.3s ease;
+  border-radius: 6px;
+  text-decoration: none;
+}
+.blue-btn:hover {
+  transition: all 0.3s ease;
+  background-color: #ffffff;
+  color: #0083fd;
+  border: 1px solid #0083fd;
+}
+
+.btn-container {
+  display: flex;
+  margin-top: 20px;
+  gap: 40px;
+  align-items: center;
+}
+
+.btn-container .simple-btn {
+  font-family: "Comfortaa";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+
+  color: #0083fd;
+}
+
+.banner-img img {
+  width: 100%;
+}

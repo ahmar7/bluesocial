@@ -1,0 +1,30 @@
+.platfrom-heading {
+  font-family: "Comfortaa";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+
+  text-align: center;
+
+  color: #000000;
+}
+.text-center {
+  text-align: center;
+}
+
+.social-flex {
+  display: flex;
+  margin-top: 50px;
+  gap: 30px;
+}
+.single-social {
+  background: #ffffff;
+  box-shadow: -2.5355px 1.93651px 13.9453px -1.26775px rgba(113, 113, 113, 0.12);
+  border-radius: 10px;
+  padding: 20px 30px;
+  /* height: 80px; */
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  width: 13%;
+}

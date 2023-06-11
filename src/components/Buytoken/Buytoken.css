@@ -1,0 +1,182 @@
+.main-social {
+  background: linear-gradient(134.14deg, #0083fd 0%, #7fe7ff 98.51%);
+  padding: 100px 0;
+}
+.buy-heading {
+  font-weight: 700;
+  font-size: 34px;
+  text-align: center;
+  color: #ffffff;
+}
+
+.private-sale {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.private-left h3 {
+  margin-top: 15px;
+}
+.bonus-heading {
+  font-family: "Comfortaa";
+  margin-bottom: 10px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 160%;
+  /* or 38px */
+  margin-top: 20px;
+  color: #000000;
+}
+.token-price {
+  font-family: "Comfortaa";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  margin: 8px 0;
+
+  color: #000000;
+}
+
+.eth-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.eth {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+
+.eth-names h1 {
+  font-family: "Comfortaa";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 18px;
+
+  color: #000000;
+}
+
+.eth-names p {
+  font-family: "Comfortaa";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+
+  color: #000000;
+}
+
+.eth-pc {
+  font-family: "Comfortaa";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+
+  text-align: center;
+
+  color: #000000;
+}
+.private-left {
+  width: 50%;
+}
+.private-right {
+  width: 40%;
+}
+.eth-pc {
+  border: 1px solid black;
+  padding: 10px 20px;
+  border-radius: 30px;
+}
+.eth-down {
+  text-align: center;
+  padding: 10px 53px;
+}
+
+.last-circle {
+  border-radius: 30px;
+  border: 1px solid #0083fd;
+  padding: 8px 25px;
+  margin-left: 15px;
+}
+.eth-slip {
+  margin-top: 25px;
+}
+.connect-btn {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.bg-sale {
+  max-width: 750px;
+  margin: 60px auto;
+  margin-bottom: 30px;
+  background-color: white;
+  border-radius: 30px;
+  padding: 30px;
+}
+.bg-sale .btn-container {
+  justify-content: center;
+  margin-top: 50px !important;
+  position: relative;
+  width: 200px;
+  margin-inline: auto;
+}
+.bg-sale .btn-container .connect-btn {
+  padding-inline: 0px;
+  justify-content: center;
+  width: 100%;
+}
+.bg-sale .btn-container .connect-btn:hover {
+  background-color: #0061bb;
+  color: #ffffff;
+}
+.drop-down {
+  top: 48px;
+  box-sizing: border-box;
+  position: absolute;
+  border-radius: 6px;
+  width: inherit;
+  background-color: #000000;
+}
+
+.single-coin {
+  padding: 12px 15px;
+  display: flex;
+  cursor: pointer;
+  align-items: center;
+  border-radius: 6px;
+  gap: 10px;
+}
+.single-coin:hover {
+  background-color: #171717da;
+}
+
+.single-coin p {
+  font-size: 15px;
+  display: flex;
+  align-items: flex-end;
+  text-align: center;
+  color: #ffffff;
+}
+.active-drop img {
+  transition: all 0.3s ease;
+  transform: rotate(180deg);
+}
+.down-ico {
+  transition: all 0.3s ease;
+}
+.terms {
+  font-family: "Comfortaa";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: #ffffff;
+  display: flex;
+  gap: 10px;
+}

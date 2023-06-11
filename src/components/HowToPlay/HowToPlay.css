@@ -1,0 +1,27 @@
+.play-heading {
+  font-family: "Comfortaa";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  background: linear-gradient(134.14deg, #0083fd 0%, #7fe7ff 98.51%);
+  border-radius: 40px;
+  padding: 15px 130px;
+  margin: 0 auto;
+  text-align: center;
+  text-transform: uppercase;
+  width: fit-content;
+  margin-bottom: 30px;
+  color: #ffffff;
+}
+.flex-play {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  gap: 50px;
+}
+.extra-gap {
+  gap: 80px !important;
+}
+.extra-gap img {
+  margin-left: 100px;
+}
