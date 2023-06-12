@@ -12,7 +12,7 @@ import Side3 from "../../assets/img//Side3.png";
 AOS.init();
 const HowToPlay = () => {
   return (
-    <div className="section-space container-width">
+    <div className="section-space howPlay container-width">
       <h1 className="play-heading">How to play</h1>
       <p className="instructions">
         Blue Social creates an experience for you at any
