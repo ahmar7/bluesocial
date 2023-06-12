@@ -5,8 +5,14 @@ import Countdown from "./components/Countdown/Countdown";
 import HowToPlay from "./components/HowToPlay/HowToPlay";
 import Platfroms from "./components/Platforms/Platfroms";
 import Privatesale from "./components/Privatesale/Privatesale";
+import Quote from "./components/Quote/Quote";
+import Reviews from "./components/Reviews/Reviews";
+import Roadmap from "./components/Roadmap/Roadmap";
 import ScocialToken from "./components/SocialToken/ScocialToken";
+import Team from "./components/Team/Team";
+import TokenDistribution from "./components/TokenDistribution/TokenDistribution";
 import Welcome from "./components/Welcome/Welcome";
+import Footer from "./layout/Footer/Footer";
 import Header from "./layout/Header/Header";
 
 function App() {
@@ -21,15 +27,12 @@ function App() {
       <Welcome />
       <HowToPlay />
       <ScocialToken />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
+      <TokenDistribution />
+      <Team />
+      <Quote />
+      <Reviews />
+      <Roadmap />
+      <Footer />
     </div>
   );
 }

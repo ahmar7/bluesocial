@@ -73,3 +73,63 @@
 
   color: #121212;
 }
+@media (max-width: 1300px) {
+  .coin1 {
+    left: 156px;
+  }
+  .coin2 {
+    left: 88px;
+  }
+  .coin3 {
+    right: 10px;
+    top: 0;
+    width: 373px;
+  }
+}
+@media (max-width: 940px) {
+  .coin1,
+  .coin2,
+  .coin3 {
+    display: none;
+  }
+  .abs-countdown {
+    position: static;
+  }
+  .countdown,
+  .abs-countdown {
+    height: auto;
+  }
+}
+@media (max-width: 700px) {
+  .top-strip {
+    padding: 25px 36px;
+  }
+  .top-strip h2 {
+    font-size: 24px;
+  }
+}
+
+@media (max-width: 500px) {
+  .top-strip h2 {
+    font-size: 18px;
+  }
+
+  .countdown-container {
+    width: 100%;
+  }
+  .top-strip {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 19px 14px;
+  }
+  .countdown-time {
+    padding: 24px 20px;
+  }
+  .time-flex h3 {
+    font-size: 24px;
+    text-align: center;
+  }
+  .time-flex p {
+    font-size: 14px;
+  }
+}

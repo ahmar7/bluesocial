@@ -1,0 +1,63 @@
+.quote-flex {
+  display: flex;
+  margin-top: 80px;
+  align-items: center;
+  justify-content: space-between;
+}
+.quote-text {
+  position: relative;
+  width: 45%;
+}
+.author-img {
+  width: 45%;
+  text-align: right;
+}
+.author-img img {
+  width: 100%;
+}
+.upquote {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.downquote {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+.quote-text p {
+  font-family: "Comfortaa";
+  font-style: normal;
+  font-weight: 400;
+  margin-top: 50px;
+  font-size: 18px;
+  line-height: 160%;
+}
+.quote-text .author-name {
+  font-family: "Comfortaa";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  margin-top: 30px;
+  color: #0083fd;
+}
+.map {
+  margin: 100px 0 60px 0;
+}
+.map img {
+  width: 100%;
+}
+.quoute-buy {
+  justify-content: center;
+}
+
+@media (max-width: 768px) {
+  .quote-flex {
+    flex-direction: column;
+    gap: 40px;
+  }
+  .author-img,
+  .quote-text {
+    width: 100%;
+  }
+}

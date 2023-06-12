@@ -1,0 +1,55 @@
+.graph-section {
+  margin-top: 70px;
+}
+.circulation {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+}
+.coin-name {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  width: 30%;
+}
+.circulation-graph {
+  width: 50%;
+}
+.circulation-graph img {
+  width: 100%;
+}
+.coin-name img {
+  width: 120px;
+}
+.coin-name p {
+  font-family: "Comfortaa";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 17px;
+
+  color: #000000;
+}
+.circle-graph {
+  width: 100%;
+  margin-top: 80px;
+  text-align: center;
+}
+.circle-graph img {
+  width: 97%;
+}
+.altwr {
+  margin-top: 80px;
+}
+@media (max-width: 768px) {
+  .circulation {
+    flex-direction: column;
+  }
+  .circle-graph img,
+  .circulation-graph,
+  .coin-name {
+    width: 100%;
+  }
+  .circle-graph {
+    margin-top: 100px;
+  }
+}

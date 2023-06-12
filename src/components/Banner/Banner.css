@@ -80,3 +80,36 @@
 .banner-img img {
   width: 100%;
 }
+
+@media (max-width: 940px) {
+  .main-banner {
+    flex-direction: column-reverse;
+  }
+  .banner-img {
+    text-align: center;
+  }
+  .banner-img img {
+    width: 500px;
+  }
+  .banner-text {
+    width: 100%;
+  }
+}
+
+@media (max-width: 600px) {
+  .banner-img img {
+    width: 86%;
+  }
+  .main-banner {
+    padding-top: 117px;
+  }
+  .banner-text {
+    margin-top: 60px;
+  }
+  .banner-text h1 {
+    font-size: 25px;
+  }
+  .banner-text h3 {
+    margin-top: 30px;
+  }
+}

@@ -161,6 +161,9 @@
   text-align: center;
   color: #ffffff;
 }
+.terms input {
+  margin: 0;
+}
 .active-drop img {
   transition: all 0.3s ease;
   transform: rotate(180deg);
@@ -179,4 +182,35 @@
   color: #ffffff;
   display: flex;
   gap: 10px;
+}
+@media (max-width: 940px) {
+  .terms {
+    align-items: start;
+    gap: 5px;
+  }
+  .private-sale {
+    flex-direction: column;
+    gap: 30px;
+  }
+  .private-right,
+  .private-left {
+    width: 100%;
+  }
+  .buy-heading {
+    font-size: 25px;
+  }
+}
+@media (max-width: 500px) {
+  .bonus-heading {
+    font-size: 20px;
+  }
+  .eth-pc {
+    border: 1px solid black;
+    padding: 6px 13px;
+    border-radius: 30px;
+    font-size: 15px;
+  }
+  .bg-sale {
+    padding: 26px 15px;
+  }
 }

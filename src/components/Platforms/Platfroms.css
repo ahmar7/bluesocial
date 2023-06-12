@@ -28,3 +28,28 @@
   align-items: center;
   width: 13%;
 }
+
+@media (max-width: 1300px) {
+  .social-flex {
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  .single-social {
+    width: 30%;
+    box-sizing: border-box;
+  }
+}
+
+@media (max-width: 768px) {
+  .platfrom-heading {
+    font-size: 25px;
+  }
+  .single-social {
+    width: 46%;
+  }
+}
+@media (max-width: 420px) {
+  .single-social {
+    width: 100%;
+  }
+}

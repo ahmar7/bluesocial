@@ -25,3 +25,34 @@
 .extra-gap img {
   margin-left: 100px;
 }
+@media (max-width: 1200px) {
+  .flex-play img {
+    width: 50%;
+  }
+}
+@media (max-width: 940px) {
+  .side-img {
+    display: none;
+  }
+  .flex-play img {
+    width: 80%;
+  }
+  .extra-gap img {
+    margin-left: 0;
+  }
+  .play-heading {
+    padding: 15px 50px;
+  }
+}
+@media (max-width: 500px) {
+  .flex-play img {
+    width: 90%;
+    margin-left: 40px;
+  }
+  .play-heading {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 400px) {
+}

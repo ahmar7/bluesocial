@@ -3,7 +3,11 @@ import "./Banner.css";
 import BannerImg from "../../assets/img/banner.png";
 const Banner = () => {
   return (
-    <div className="main-banner container-width">
+    <div
+      className="main-banner container-width"
+      data-aos="fade-up"
+      data-aos-duration="1000"
+    >
       <div className="banner-text">
         <h1>
           MAKE A STAND, GET IN EARLY ON THE BLUE SOCIAL TOKEN PRIVATE PRESALE
