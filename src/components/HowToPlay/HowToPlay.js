@@ -4,6 +4,9 @@ import AOS from "aos";
 
 import "./HowToPlay.css";
 import Step1 from "../../assets/img/play.svg";
+import Mbl1 from "../../assets/img/mbl1.png";
+import Mbl2 from "../../assets/img/mbl2.png";
+import Mbl3 from "../../assets/img/mbl3.png";
 import Side1 from "../../assets/img/side1.png";
 import Step2 from "../../assets/img/play2.svg";
 import Side2 from "../../assets/img/side2.png";
@@ -25,18 +28,36 @@ const HowToPlay = () => {
         data-aos-duration="1500"
         data-aos="fade-left"
       >
-        <img draggable="false" src={Step1} alt="" />
+        {/* <img draggable="false" src={Step1} alt="" />
+         */}
+        <div className="roadmap-card steps">
+          <h3>Step 1</h3>
+          <div className="roadmap-list">
+            <p>Use Blue at ANY event and toggle Networking Mode.</p>
+          </div>
+          <img src={Mbl1} alt="" />
+        </div>
         <img draggable="false" src={Side1} className="side-img" alt="" />
       </div>
       <div
-        className="flex-play extra-gap"
+        className="flex-play  "
         data-aos-offset="200"
         data-aos="fade-right"
         data-aos-delay="200"
         data-aos-duration="1500"
       >
         <img draggable="false" src={Side2} className="side-img" alt="" />
-        <img draggable="false" src={Step2} alt="" />
+        <div className="roadmap-card steps st2 ">
+          <h3>Step 2</h3>
+          <div className="roadmap-list">
+            <p>
+              When two users agree to be social — Blue uses Bluetooth
+              directional & distance to find each other.
+            </p>
+            <p className="theme-color mt-2">No Internet or Wifi required.</p>
+          </div>
+          <img src={Mbl2} alt="" />
+        </div>
       </div>
       <div
         className="flex-play"
@@ -45,7 +66,20 @@ const HowToPlay = () => {
         data-aos-offset="200"
         data-aos-duration="1500"
       >
-        <img draggable="false" src={Step3} alt="" />
+        {/* <img draggable="false" src={Step3} alt="" /> */}
+        <div className="roadmap-card steps st2 st3">
+          <h3>Step 3</h3>
+          <div className="roadmap-list">
+            <p>
+              Be social for at least 30 seconds to athenticate the Proof of
+              Interaction.
+            </p>
+            <p className="theme-color mt-2">
+              Once authenticated, both users will be rewarded.
+            </p>
+          </div>
+          <img src={Mbl3} alt="" />
+        </div>
         <img draggable="false" src={Side3} className="side-img" alt="" />
       </div>
     </div>
