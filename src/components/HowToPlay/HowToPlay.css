@@ -28,6 +28,9 @@
 .extra-gap img {
   margin-left: 100px;
 }
+.howPlay .instructions {
+  font-size: 20px;
+}
 @media (max-width: 1200px) {
   .flex-play img {
     width: 50%;

@@ -10,7 +10,7 @@ const Welcome = () => {
       <div className="video">
         {toggleVideo ? (
           <iframe
-            className="welcome-bg video"
+            className="welcome-bg video iframe"
             src="https://www.youtube.com/embed/7zQHIPmTD50"
             title="Blue Social - Launch Video 2022"
             frameborder="0"
@@ -26,15 +26,18 @@ const Welcome = () => {
           />
         )}
       </div>
-      <p className="instructions">
-        Blue Social is a Web3 lifestyle app that rewards users for being social
-      </p>
-      <p className="instructions">
-        in-person. Users equipped with Blue NFT Identities can earn rewards
-      </p>
-      <p className="instructions">
-        through Blue’s Proof-of-Interaction™ Bluetooth Protocol
-      </p>
+      <div className="last-inst">
+        <p className="instructions">
+          Blue Social is a Web3 lifestyle app that rewards users for being
+          social
+        </p>
+        <p className="instructions">
+          in-person. Users equipped with Blue NFT Identities can earn rewards
+        </p>
+        <p className="instructions">
+          through Blue’s Proof-of-Interaction™ Bluetooth Protocol
+        </p>
+      </div>
     </div>
   );
 };

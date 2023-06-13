@@ -7,7 +7,10 @@
   text-align: center;
 }
 .welcome-bg {
-  width: 100%;
+  /* width: 100%; */
+  margin: 0 auto;
+  text-align: center;
+  height: 470px;
   margin-bottom: 40px;
 }
 .instructions {
@@ -24,16 +27,27 @@
   color: #000000;
 }
 .video {
-  height: 90vh;
+  margin: 0 auto;
+  width: auto;
+  text-align: center;
+}
+.iframe {
+  height: 470px;
+  width: 90%;
+  margin: 0 auto;
+}
+.last-inst {
+  margin-top: 50px;
 }
 @media (max-width: 768px) {
+  .last-inst {
+    margin-top: 40px;
+  }
   .welcome {
     font-size: 20px;
     margin: 20px 0;
   }
-  .instructions {
-    text-align: left;
-  }
+
   .video {
     height: 400px;
   }

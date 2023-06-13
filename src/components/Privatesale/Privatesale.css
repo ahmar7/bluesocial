@@ -89,11 +89,23 @@
   }
 }
 @media (max-width: 500px) {
-  .number-flex {
+  .single-number {
+    font-size: 16px;
+    width: 18px;
+    height: 28px;
+  }
+  .number-flex,
+  .num-sec {
+    gap: 5px;
+  }
+  .coma {
+    font-size: 22px;
+  }
+  /* .number-flex {
     width: 330px;
     border-radius: 0;
     overflow: scroll;
-  }
+  } */
   .sale-remaining {
     font-size: 16px;
   }
@@ -102,7 +114,7 @@
   }
 }
 @media (max-width: 350px) {
-  .number-flex {
+  /* .number-flex {
     width: 280px;
-  }
+  } */
 }
