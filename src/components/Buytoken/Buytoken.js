@@ -34,10 +34,10 @@ const Buytoke = () => {
                   $0.085 Per Token - Private Presale Price (USD)
                 </p>
                 <p className="token-price">
-                  $0.10 Per Token - Public Presale Price (April 2023)
+                  $0.10 Per Token - Public Presale Price (July 2023)
                 </p>
                 <p className="token-price">
-                  $0.18 Per Token - Public IDO Price (June 2023)
+                  $0.18 Per Token - Public IDO Price (Nov. 2023)
                 </p>
               </div>
               <div className="private-right">
@@ -109,9 +109,10 @@ const Buytoke = () => {
               )}
             </div>
           </div>
-          <p className="terms"> <input type="checkbox" name="" id="" />
-            I Agree with the Terms of Token Sale in the Blue Social Utility
-            Token Purchase Agreement.
+          <p className="terms">
+            {" "}
+            <input type="checkbox" name="" id="" />I Agree with the Terms of
+            Token Sale in the Blue Social Utility Token Purchase Agreement.
           </p>
         </div>
       </div>

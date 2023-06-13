@@ -60,13 +60,15 @@
   width: fit-content;
 }
 
-.time-flex h3 {
+.time-flex h3,
+.show-counter .countdown > p {
   font-size: 30px;
   text-transform: uppercase;
 
   color: #121212;
 }
-.time-flex p {
+.time-flex p,
+.show-counter .countdown > span {
   font-size: 15px;
 
   text-transform: uppercase;
@@ -132,4 +134,56 @@
   .time-flex p {
     font-size: 14px;
   }
+}
+
+.expired-notice {
+  text-align: center;
+  padding: 2rem;
+  border: 1px solid #ebebeb;
+  border-radius: 0.25rem;
+  margin: 0.5rem;
+}
+
+.show-counter {
+  width: 100%;
+}
+
+.show-counter .countdown-link {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  font-weight: 700;
+  text-decoration: none;
+  color: #000;
+}
+
+.show-counter .countdown {
+  line-height: 1.25rem;
+  padding: 0 0.75rem 0 0.75rem;
+  align-items: center;
+  display: flex;
+  gap: 20px;
+  flex-direction: column;
+}
+
+.show-counter .countdown.danger {
+  color: #ff0000;
+}
+
+.show-counter .countdown > p {
+  margin: 0;
+}
+
+.show-counter .countdown > span {
+  text-transform: uppercase;
+  font-size: 0.75rem;
+  line-height: 1rem;
+}
+
+.show-counter .countdown {
+  height: auto;
+}
+.hidden-dis {
+  display: none;
 }

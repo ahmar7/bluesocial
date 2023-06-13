@@ -1,12 +1,31 @@
-import React from "react";
+import React, { useState } from "react";
 import "./Welcome.css";
 import WelcomeBg from "../../assets/img/bg-welcome.png";
 const Welcome = () => {
+  const [toggleVideo, settoggleVideo] = useState(false);
   return (
     <div className="section-space container-width">
       <h1 className="platfrom-heading ">Welcome to Blue</h1>
       <p className="theme-color welcome">The New Way to Network® is here!</p>
-      <img className="welcome-bg" src={WelcomeBg} alt="" />
+      <div className="video">
+        {toggleVideo ? (
+          <iframe
+            className="welcome-bg video"
+            src="https://www.youtube.com/embed/7zQHIPmTD50"
+            title="Blue Social - Launch Video 2022"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowfullscreen
+          ></iframe>
+        ) : (
+          <img
+            className="welcome-bg"
+            onClick={() => settoggleVideo(true)}
+            src={WelcomeBg}
+            alt=""
+          />
+        )}
+      </div>
       <p className="instructions">
         Blue Social is a Web3 lifestyle app that rewards users for being social
       </p>

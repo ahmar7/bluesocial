@@ -23,6 +23,9 @@
 
   color: #000000;
 }
+.video {
+  height: 90vh;
+}
 @media (max-width: 768px) {
   .welcome {
     font-size: 20px;
@@ -30,5 +33,8 @@
   }
   .instructions {
     text-align: left;
+  }
+  .video {
+    height: 400px;
   }
 }

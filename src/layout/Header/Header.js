@@ -25,7 +25,7 @@ const Header = () => {
             <img src={Logo} alt="" />
           </a>
           <div className={navToggle ? "links active-nav" : "links "}>
-            <ul className="nav-link">
+            {/* <ul className="nav-link">
               <li>
                 <a href=" " className="active">
                   Home
@@ -52,7 +52,7 @@ const Header = () => {
               <li>
                 <a href=" ">Support</a>
               </li>
-            </ul>
+            </ul> */}
           </div>
         </div>
         <div className="right-content">
