@@ -49,6 +49,13 @@
   }
 
   .video {
-    height: 400px;
+    /* height: 400px; */
+  }
+  .welcome-bg {
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    height: auto;
+    margin-bottom: 40px;
   }
 }
